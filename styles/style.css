@@ -1,0 +1,293 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFCFC;
+    color: #272D38;
+}
+
+a {
+    color: black;
+}
+
+button {
+    width: 167px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #8EADD5;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1076px;
+    max-height: 28px;
+    margin-left: 15%;
+    margin-top: 46px;
+}
+
+.header-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul  {
+    display: flex;
+    column-gap: 44px;
+    font-size: 18px;
+}
+
+#menu, .menu-phone {
+    display: none;
+}
+
+main {
+    max-width: 1065px;
+    height: 100%;
+    margin-top: 97px;
+    margin-left: 15%;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-container h1 {
+    text-transform: capitalize;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1em;
+    margin-top: 42px;
+}
+
+.text-container p {
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-top: 24px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+
+.text-container button {
+    margin-top: 39px;
+}
+
+.hero-section img {
+    margin-left: 75px;
+}
+
+.companies-section {
+    margin-top: 157px;
+    text-align: center;
+}
+
+.companies-section p {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #667085;
+}
+
+.logos-container {
+    display: flex;
+    align-items: center;
+    width: 915px;
+    height: 86px;
+    border-radius: 8px;
+    background-color: #F6F6F6;
+    margin-top: 16px;
+    margin-left: 75px;
+}
+
+.logos-container img+img {
+    margin-left: 115px;
+}
+
+.logos-container img:nth-child(1) {
+    margin-left: 24px;
+}
+
+.branding, .custome, .testimonials {
+    max-width: 1065px;
+    margin-top: 136px;
+}
+
+.branding, .custome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+}
+
+.branding h2, .custome h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+.branding p, .custome p {
+    margin-top: 26px;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.arrow {
+    margin-top: 46px;
+}
+
+.testimonials {
+    text-align: center;
+    height: 515px;
+}
+
+.testimonials span {
+    font-size: 16px;
+    line-height: 28px;
+    height: 24px;
+}
+
+.testimonials h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-top: 16px;
+    height: 102px;
+}
+
+.testimonials>div {
+    display: flex;
+}
+
+.testimonial-card {
+    width: 345px;
+    height: 334px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    margin-top: 39px;
+}
+
+.testimonial-card+.testimonial-card {
+    margin-left: 15px;
+}
+
+.testimonial-card img {
+    margin-top: 32px;
+}
+
+.testimonial-card h3 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 8px;
+}
+
+.testimonial-card p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 130%;
+    text-transform: capitalize;
+    margin-top: 27px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    max-width: 1065px;
+    height: 450px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    margin-top: 136px;
+}
+
+.contact>div {
+    margin-left: 90px;
+}
+
+.contact img {
+    margin-left: 75px;
+}
+
+.contact h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-bottom: 16px;
+}
+
+.contact p {
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+footer {
+    height: 443px;
+    margin-top: 140px;
+    background-color: #F6F6F6;
+}
+
+.footer {
+    width: 100%;
+    /* position: relative; */
+    /* left: 220px; */
+    /* margin-left: 220px; */
+    /* margin: 105px 0 0 220px; */
+    /* top: 105px;  */
+}
+
+.footer>p {
+    text-align: center;
+    margin-top: 110px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+.footer-row {
+    display: flex;
+    text-transform: capitalize;
+    max-width: 1200px;
+    padding: 105px 0 0 220px;
+}
+
+.col:nth-child(1) {
+    max-width: 190px;
+}
+
+.col+.col {
+    /* margin-left: 170px; */
+    margin-left: 15%;
+}
+
+.col h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.col p, .col ul {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.col p {
+    line-height: 150%;
+    margin-top: 40px;
+}
+
+.col ul {
+    line-height: 100%;
+}
+
+.col ul li:nth-child(1) {
+    margin-top: 32px;
+}
+
+.col ul li+li {
+    margin-top: 24px;
+}
